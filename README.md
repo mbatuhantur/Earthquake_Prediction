@@ -1,5 +1,5 @@
 # Earthquake_Prediction
-1. Introduction
+<h3> 1. Introduction </h3> <br>
 Earthquakes are a reality in this world. Even tough humanity has reached a technology level 
 that has never been reached before we are still struggling to make accurate predictions about when 
 an earthquake will happen. 
@@ -14,7 +14,7 @@ trustable sources are Kandilli and AFAD for Turkey. After discussing we decided 
 would be more suitable for this project.
 In this article you can see the technologies, methodologies, and algorithms. Thank you and 
 enjoy reading!
-2. Literature
+<h3> 2. Literature </h3> <br>
 Computers have come a long way in such a short time. This gives us the advantage of having 
 more complex computations and work with larger data. Everyday lots of earthquakes happen just in 
 Turkey varying from low to very high magnitudes of earthquakes. This gives us a very big database to 
@@ -49,7 +49,9 @@ learning would be better to make it work. We have a data set of around 8500 and 
 networks to make it work. 
 We showed how data works, how to normalize it and how to train the data. I hope its good 
 information for you.
-3. Structure of the solution proposed – Components, Architectural design
+
+<h3 > 3. Structure of the solution proposed – Components, Architectural design </h3> <br>
+
 Structure is the most important part of the project. Structure fails all the project fails so we 
 made our project very strong there are three parts that makes this project possible. Let’s go through 
 them together.
@@ -79,8 +81,10 @@ which one of the five class to put it on. At the end of the program, we can see 
 
 evaluation matrix of five classes, accuracy, precision f1 score etc. You can see all the information we 
 get from the software in Figure 9. Modelling and Confusion Matrix Results.
-4. Software Usage
-4.1 How to use the software
+
+<h3> 4. Software Usage </h3> <br>
+
+<h5> 4.1 How to use the software </h5> <br>
 We have used two different programming language for different purposes. We used Python to 
 make our data more usable and suitable to our needs. Java is for making the machine learning model 
 and mapping of fault line with real earthquakes. Let’s start with Python and then Java projects. 
@@ -94,7 +98,7 @@ you just run the program and see the result of your model in command line. Also,
 percentage of training and test data to have different or make it more accurate.
 The other Java file is for mapping of the fault lines is the same process you only need to run 
 this code and a page will come up to see your results.
-4.2 What are the requirements?
+<h5> 4.2 What are the requirements? </h5> <br>
 Python and Java SDKs are both need to be downloaded a loaded in your computer. For Python 
 there is no specific IDE, but Spyder is recommended because it has all the basic libraries for this kind 
 of project. If you don’t want to download Spyder I will list the needed libraries to be downloaded for 
@@ -122,7 +126,7 @@ java code and some special libraries. Let’s list them.
 - Datavec
 There are also included Java libraries in these project that doesn’t need any downloading.
 If you can make these requirements, you can run all these code without any problems.
-5. Algorithmic Frame Explanation
+<h3> 5. Algorithmic Frame Explanation </h3> <br>
 We used two different main algorithms to work with. Mapping used K-means algorithm and 
 Modelling used Neural networks.
 K-Means algorithm is a method of vector quantization. Data clustering problem consists of 
@@ -132,26 +136,36 @@ Neural networks are made from layers of nodes which consist of input (dense) lay
 output layers. Every neuron in the hidden layer has its bias and trigger value and is triggered when 
 sending information to the next layer of the network.
 
-6. Demonstration
+<h3> 6. Demonstration </h3> <br>
 This part will include graphical and text-based demonstration about this project let’s start with 
 data demonstrations.
-![Unchanged data](‪C:\Users\Batuhan Tur\Desktop\Data_mining\1.png)
 Figure 1. Unchanged data
+![Unchanged data](/img/1.png)
 
-Figure 2. Pair Plot
 
-Figure 3-4. QQ Plot for Magnitude and Depth
+
+
+
+
 Figure 5. Cleaned and Usable Data
+![Unchanged data](/img/Ekran görüntüsü 2022-01-06 183244.png)
 
 Java side has two different Projects so let’s focus on mapping project first. 
 Mapping Project:
 Figure 6. Map before Clustering
+![Unchanged data](/img/AfterClustering.png)
+
+
 Figure 7. Map after Clustering
 
-Figure 8. After program worked command line output 
+![Unchanged data](/img/Clustering.png)
+
+
 
 Figure 9. Modelling and Confusion Matrix Results
-7. Results and Comments
+![Unchanged data](/img/Ekran görüntüsü 2022-01-06 183308.png)
+
+<h3> 7. Results and Comments </h3> <br>
 Results we have can be separated into three different parts. First is making the data usable 
 and better. Second is mapping of faulting line and comparing. Third and the last one is neural network 
 modelling.
@@ -166,7 +180,7 @@ trial and error for project to work. 70% training to 30% percent test data gave 
 only 16.7% error rate. Layers, how many examples, how many classes has been worked on for days to 
 get the optimum results.
 
-8. Future Improvements
+<h3> 8. Future Improvements </h3> <br>
 Time means everything. If we had more time, we would get more data to work with more 
 algorithms to use and such. At this point we can say we need data about smaller earthquakes for 
 Turkey. This challenged us to have more accurate results. 
