@@ -189,3 +189,7 @@ accuracy we might had better results in that department.
 Modelling is the challenge we didn’t had in super or major categories. In the future we can 
 improve on that by having much more data to work with. Also %16.7 error rate is right now might be 
 okay but, in the future, we can make it les then %10 percent it would be a nice upgrade
+
+Ahmet Yasin Bağçıvan
+Mehmet Şener
+Adrian Kubczak
